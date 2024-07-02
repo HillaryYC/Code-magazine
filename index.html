@@ -8,7 +8,7 @@
     <title>The Code Magazine</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>The Code Magazine</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -22,7 +22,7 @@
       <header>
         <h2>The Basic Language Of the Web: HTML</h2>
         <img src="laura-jones.jpg" width="50" height="50" />
-        <p>
+        <p id="author">
           Posted by <em><strong>Hillary Donora</strong></em> on Friday,
           <em>June 27th 2024</em>
         </p>
@@ -54,7 +54,7 @@
       </ol>
       <p>
         To learn more about HTML visit
-        <a href="www.facebook.com" target="_blank">MDN Web Docs</a>
+        <a href="www.facebook.com" target="_blank">MDN Web Docs</a>.
       </p>
 
       <h3>Why should you learn HTML?</h3>
@@ -76,26 +76,28 @@
     <aside>
       <h4>Related posts</h4>
       <ul>
-        <li>
+        <li class="no-bullets">
           <img src="related-1.jpg" alt="" width="75" height="75" /><a href="#">
             How to Learn Web Dev</a
           >
-          <p>By Hillary Donora</p>
+          <p class="related-author">By Hillary Donora</p>
         </li>
-        <li>
+        <li class="no-bullets">
           <img src="related-2.jpg" alt="" width="75" height="75" /><a href="#">
             How to learn CSS quickly</a
           >
-          <p>By Hillary Donora</p>
+          <p class="related-author">By Hillary Donora</p>
         </li>
-        <li>
+        <li class="no-bullets">
           <img src="related-3.jpg" alt="" width="75" height="75" /><a href="#">
             Why Javascript is awesome</a
           >
-          <p>By Hillary Donora</p>
+          <p class="related-author">By Hillary Donora</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2024 by Hillary Donora</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2024 by Hillary Donora</p>
+    </footer>
   </body>
 </html>
