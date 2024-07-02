@@ -1,0 +1,12 @@
+The Basic Language of the Web: HTML
+HTML (Hypertext Markup Language) is the foundation of all web pages. It's the standard markup language used to create the structure and content of websites. If you're interested in web development, understanding HTML is your first step into this exciting world.
+What is HTML?
+HTML is not a programming language; it's a markup language that tells web browsers how to structure the content on a web page. It uses a system of elements and tags to define different parts of a page, such as headings, paragraphs, links, and images.
+Key Features of HTML
+
+Simple and Easy to Learn: HTML has a straightforward syntax that's relatively easy for beginners to grasp.
+Platform Independent: HTML can be created and viewed on any platform that supports a web browser.
+Flexible: It can be used with other languages like CSS and JavaScript to create dynamic and interactive websites.
+
+Basic Structure of an HTML Document
+A typical HTML document includes the following structure:
